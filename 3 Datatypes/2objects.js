@@ -12,7 +12,7 @@ console.log(person['isHuman']);
 
 
 // Add, modify and delete the data
-person.email = "xyz@gmai.com";
+person.email = "xyz@gmail.com";
 person.age = 41;
 delete person["isHuman"]
 
