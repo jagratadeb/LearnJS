@@ -17,6 +17,9 @@ console.log("Last character of str1:", str1.charAt(str1.length - 1)); // "o"
 // Substring - extracting a portion of a string
 console.log("Substring of str1 (0, 3):", str1.substring(0, 3)); // "Hel"
 
+// Slice - extracting a portion of a string (similar to substring)
+console.log("Slice of str1 (0, 3):", str1.slice(0, 3)); // "Hel"
+
 // Replace - replacing a part of the string with another string
 let newStr = str1.replace("Hello", "Hi");
 console.log("Replaced String:", newStr); // "Hi"
