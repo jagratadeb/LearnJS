@@ -15,6 +15,7 @@ console.log("First character of str1:", str1.charAt(0)); // "H"
 console.log("Last character of str1:", str1.charAt(str1.length - 1)); // "o"
 
 // Substring - extracting a portion of a string
+
 console.log("Substring of str1 (0, 3):", str1.substring(0, 3)); // "Hel"
 
 // Slice - extracting a portion of a string (similar to substring)
