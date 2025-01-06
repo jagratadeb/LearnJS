@@ -37,3 +37,4 @@ console.log(result9, typeof result9); // Output: '1,2,3' 'string'
 // Object to String
 let result10 = String({a: 1});
 console.log(result10, typeof result10); // Output: '[object Object]' 'string'
+

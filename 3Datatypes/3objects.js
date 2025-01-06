@@ -6,6 +6,5 @@ const student = {
         console.log(`Hello, my name is ${this.name}.`);
     }
 };
-
 console.log(student.name); // Outputs: John
 student.greet(); // Outputs: Hello, my name is John.

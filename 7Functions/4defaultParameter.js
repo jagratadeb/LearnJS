@@ -4,3 +4,5 @@ function greet(name = "World") {
 }
 console.log("greet() =", greet()); // Hello, World!
 console.log("greet('Alice') =", greet("Alice")); // Hello, Alice!
+
+

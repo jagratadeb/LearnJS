@@ -15,7 +15,6 @@ console.log("First character of str1:", str1.charAt(0)); // "H"
 console.log("Last character of str1:", str1.charAt(str1.length - 1)); // "o"
 
 // Substring - extracting a portion of a string
-
 console.log("Substring of str1 (0, 3):", str1.substring(0, 3)); // "Hel"
 
 // Slice - extracting a portion of a string (similar to substring)
@@ -25,14 +24,11 @@ console.log("Slice of str1 (0, 3):", str1.slice(0, 3)); // "Hel"
 let newStr = str1.replace("Hello", "Hi");
 console.log("Replaced String:", newStr); // "Hi"
 
-// Uppercase - converting all characters to uppercase
-console.log("Uppercase str1:", str1.toUpperCase()); // "HELLO"
-
-// Lowercase - converting all characters to lowercase
-console.log("Lowercase str2:", str2.toLowerCase()); // "world"
+// Uppercase & Lowercase - converting all characters to uppercase & lowercase
+console.log("Uppercase str1:", str1.toUpperCase() + " " + str2.toLowerCase()); // "HELLO world"
 
 // Split - splitting a string into an array of substrings
-let splitStr = concatenated.split(" ");
+let splitStr = concatenated.split(' ');
 console.log("Split String:", splitStr); // ["Hello", "World"]
 
 // Trim - removing whitespace from both ends of a string
