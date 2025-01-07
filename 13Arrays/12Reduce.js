@@ -6,4 +6,4 @@ let arr1 = [1, 2, 3, 4, 5];
 // The final result is the sum of all numbers in the array.
 // The original array remains unchanged.
 let reducedValue = arr1.reduce((acc, curr) => acc + (typeof curr === 'number' ? curr : 0), 0);
-console.log("Reduced Value:", reducedValue); // 11
+console.log("Reduced Value:", reducedValue); // 15

@@ -6,4 +6,4 @@ let arr1 = [1, 2, 3, 4, 5];
 // Only elements that are numbers are included in the new array.
 // The original array remains unchanged.
 let filteredArray = arr1.filter(x => typeof x === 'number');
-console.log("Filtered Array:", filteredArray); // [0, 2, 4, 5]
+console.log("Filtered Array:", filteredArray); // [1, 2, 3, 4, 5]
