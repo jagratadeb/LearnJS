@@ -30,3 +30,6 @@ asyncOperation((error, message) => {
         console.log(message); // Output: Operation was successful!
     }
 });
+
+
+// A callback is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action. Callbacks are often used to handle asynchronous operations in JavaScript, such as reading files, making network requests, or handling user input. They allow you to continue executing code while waiting for an asynchronous operation to complete, and then execute the callback function once the operation is done.
