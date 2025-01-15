@@ -1,14 +1,3 @@
-// Define a constructor function for creating Item objects
-function Item(name, value) {
-    this.name = name;
-    this.value = value;
-}
-
-// Create a new instance of Item using the 'new' keyword
-const item1 = new Item("Item1", 25);
-console.log(item1.name); // Output: Item1
-console.log(item1.value); // Output: 25
-
 // Create a new Promise
 const promise = new Promise((resolve, reject) => {
     // Simulate an asynchronous operation using setTimeout

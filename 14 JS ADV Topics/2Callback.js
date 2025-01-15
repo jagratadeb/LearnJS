@@ -1,14 +1,3 @@
-// Define a constructor function for creating Person objects
-function Person(name, age) {
-    this.name = name;
-    this.age = age;
-}
-
-// Create a new instance of Person using the 'new' keyword
-let john = new Person("John", 25);
-console.log(john.name); // Output: John
-console.log(john.age);  // Output: 25
-
 // Define a function that simulates an asynchronous operation using a callback
 function asyncOperation(callback) {
     setTimeout(() => {
@@ -17,7 +6,7 @@ function asyncOperation(callback) {
         if (success) {
             callback(null, "Operation was successful!");
         } else {
-            callback("Operation failed.");
+            callback("Operation failed.",null);
         }
     }, 2500); // 2.5 -second delay
 }
