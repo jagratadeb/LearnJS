@@ -9,3 +9,13 @@ if (element.previousElementSibling == null) {
     // If there is a previous sibling, log that element to the console
     console.log(element.previousElementSibling);
 }
+
+
+
+// Select the first element with the class 'hero'
+let element1 = document.querySelector('.hero');
+
+// Log the previous sibling of the selected element to the console
+console.log(element1.previousSibling);
+// it can be some #text
+
