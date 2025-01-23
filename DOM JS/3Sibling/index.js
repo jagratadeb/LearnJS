@@ -21,6 +21,3 @@ console.log(element1.previousSibling);
 
 // nextElementSibling
 // nextSibling
-
-
-
