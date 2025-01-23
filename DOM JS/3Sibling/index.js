@@ -21,3 +21,7 @@ console.log(element1.previousSibling);
 
 // nextElementSibling
 // nextSibling
+// firstElementChild
+// firstChild
+// lastElementChild
+// lastChild

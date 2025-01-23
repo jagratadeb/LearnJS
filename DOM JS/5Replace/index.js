@@ -2,7 +2,7 @@
 const list = document.querySelector('ul');
 
 // Select the second child element (index 1) of the list
-const oldItem = list.children[1];
+const oldItem = list.children[1];   
 
 // Create a new <li> element
 const newItem = document.createElement('li');
