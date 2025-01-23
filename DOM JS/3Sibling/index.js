@@ -19,3 +19,8 @@ let element1 = document.querySelector('.hero');
 console.log(element1.previousSibling);
 // it can be some #text
 
+// nextElementSibling
+// nextSibling
+
+
+
