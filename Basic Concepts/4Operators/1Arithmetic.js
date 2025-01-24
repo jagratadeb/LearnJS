@@ -35,11 +35,3 @@ console.log("++a =", ++a); // 6
 // Pre-decrement
 console.log("--a =", --a); // 5
 
-
-
-
-
-
-
-
-

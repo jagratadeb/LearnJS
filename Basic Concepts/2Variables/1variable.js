@@ -10,9 +10,9 @@ console.log(a);
 
 // changing the value of the variable
 a = 100;
-console.log(a)
+console.log(a);
 
 // var name can start with $ sign too
 let $ok;
-$ok = 'how to be happy?'
-console.log($ok)
+$ok = "how to be happy?";
+console.log($ok);
