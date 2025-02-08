@@ -80,3 +80,31 @@ button:hover {
 #profile a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input[type="text"] {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+
+    #profile h1 {
+        font-size: 20px;
+    }
+
+    #profile p {
+        font-size: 14px;
+    }
+}
