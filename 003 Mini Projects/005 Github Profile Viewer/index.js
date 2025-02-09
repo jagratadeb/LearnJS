@@ -30,21 +30,11 @@ function displayProfile(data) {
         <p><strong>Username:</strong> ${data.login}</p>
         <p><strong>BIO:</strong> ${data.bio}</p>
         <p><strong>Company:</strong> ${data.company}</p>
-        <p><strong>Blog:</strong> <a href="${data.blog}" target="_blank">${
-    data.blog
-  }</a></p>
         <p><strong>Location:</strong> ${data.location}</p>
-        <p><strong>Email:</strong> ${data.email}</p>
-        <p><strong>Twitter:</strong> ${data.twitter_username}</p>
         <p><strong>Followers:</strong> ${data.followers}</p>
         <p><strong>Following:</strong> ${data.following}</p>
         <p><strong>Public Repos:</strong> ${data.public_repos}</p>
-        <p><strong>Account Created:</strong> ${new Date(
-          data.created_at
-        ).toLocaleDateString()}</p>
-        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/${
-          data.login
-        }" target="_blank">LinkedIn Profile</a></p>
+        <button onclick="window.open('${data.html_url}', '_blank')">View GitHub Profile</button>
     `;
 }
 
