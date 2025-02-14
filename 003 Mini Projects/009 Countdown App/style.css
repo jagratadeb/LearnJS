@@ -14,22 +14,25 @@
     background-color: #1b1b1b;
     text-align: center;
 }
-
-.countdown-timer{
-    color: white;
-    font-size: 25px;
-    border: 2px solid white;
-    border-radius: 50px 50px 0 0;
+#countdown{
+    border:2px solid white;
     width: 250px;
-    padding: 30px;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 0 0 50px 50px;
+    border-top: none;
+    color: white;
+    background:rgba(0, 0, 0, 0.52);
 }
 
-#countdown-label{
+#daysPassed{
     color: white;
-    font-size: 20px;
-    padding: 20px;
-    border-radius: 0 0 50px 50px;
-    border: 2px solid white;
-    border-top: none;
+    text-align: center;
+    font-size: 25px;
+    border:2px solid white;
     width: 250px;
+    background:rgba(0, 0, 0, 0.52);
+
+    padding: 20px;
+    border-radius:50px 50px 0 0;
 }
