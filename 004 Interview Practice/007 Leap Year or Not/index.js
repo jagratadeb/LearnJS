@@ -22,3 +22,4 @@ console.log(isLeapYear(2004));
 console.log(isLeapYear(2005));
 
 console.log(isLeapYear(2008));
+console.log(isLeapYear(2012));
