@@ -4,7 +4,7 @@
     var
 */
 
-// declared a variable
+// declare a variable
 let a = 50;
 console.log(a);
 

@@ -4,26 +4,26 @@
 let a = 2305;
 console.log(a, "\nDatatype: ", typeof a, "\n");
 
-// String:
-let b = "A String";
+// Null
+let b = null;
 console.log(b, "\nDatatype: ", typeof b, "\n");
 
-// Boolean:
-let c = true;
+// String:
+let c = "A String";
 console.log(c, "\nDatatype: ", typeof c, "\n");
 
-// Undefined:
-let d = undefined;
+// Symbol:
+let d = Symbol("I am a symbol");
 console.log(d, "\nDatatype: ", typeof d, "\n");
 
-// Null
-let e = null;
+// Boolean:
+let e = true;
 console.log(e, "\nDatatype: ", typeof e, "\n");
 
-// Symbol:
-let f = Symbol("I am a symbol");
+// BigInt:
+let f = BigInt("567") + BigInt("433");
 console.log(f, "\nDatatype: ", typeof f, "\n");
 
-// BigInt:
-let g = BigInt("567") + BigInt("433");
+// Undefined:
+let g = undefined;
 console.log(g, "\nDatatype: ", typeof g, "\n");
