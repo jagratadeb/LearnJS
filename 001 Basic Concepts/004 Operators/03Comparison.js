@@ -1,6 +1,5 @@
 x = 10;
 y = 5;
-
 console.log("Comparison Operators");
 
 // Equal to
