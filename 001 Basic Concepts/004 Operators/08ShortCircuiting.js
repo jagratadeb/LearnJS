@@ -2,7 +2,7 @@
 let result = "" || "Guest" || null || 23;
 console.log(result);
 
-let result2 = undefined || 0 || null;
+let result2 = undefined || 0 || false || null || -0 || 0n;
 console.log(result2);
 
 
