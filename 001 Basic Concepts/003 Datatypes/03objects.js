@@ -4,7 +4,7 @@ const person = {
     name: 'John Doe',
     age: 40,
     isHuman: true,
-    func: function(){
+    func: function () {
         console.log('Hello, I am a function!');
         return;
     }
@@ -38,3 +38,15 @@ console.log(person['age']); // Output: 41
 for (key in person) {
     console.log(key, ':', person[key]);
 }
+
+// Another object example
+const student = {
+    name: 'John',
+    age: 22,
+    major: "Computer Science",
+    greet: function () {
+        console.log(`Hello, my name is ${this.name}.`);
+    }
+};
+console.log(student.name); // Outputs: John
+student.greet(); // Outputs: Hello, my name is John.
