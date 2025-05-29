@@ -1,8 +1,12 @@
+console.log("For Of Loop\n")
 let numbers = [1, 2, 3, 4, 5];
-
-// For-of loop (ES6)
-console.log("For-of loop:");
-for (let num of numbers) {
-  console.log(num);
+for (let element of numbers) {
+  console.log(element);
 }
 
+console.log("\n")
+
+let str = "Jagrata Deb is a legend!!!";
+for (let word of str) {
+  console.log(word);
+}
