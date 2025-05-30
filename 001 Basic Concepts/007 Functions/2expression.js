@@ -1,4 +1,9 @@
 // Function expression
+const addition = function (a, b) {
+  return a + b;
+};
+console.log("addition(10,5) =", addition(10, 5));
+
 const subtract = function (a, b) {
   return a - b;
 };
