@@ -1,7 +1,5 @@
 # LearnJS
 
-<!-- [![wakatime](https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/2ddfbee0-90e1-46cc-875b-8608558707cd.svg)](https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/2ddfbee0-90e1-46cc-875b-8608558707cd) -->
-
 A comprehensive collection of JavaScript code examples, concepts, and mini-projects. This repository is organized into folders that cover the basics, DOM manipulation, practical projects, and interview preparation.
 
 ## Folder Overview
