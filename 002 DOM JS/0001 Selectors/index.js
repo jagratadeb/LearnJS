@@ -27,3 +27,6 @@ console.log(firstSelectorTag);
 // Select all elements that match a CSS selector
 var allElementsBySelector = document.querySelectorAll('li');
 console.log(allElementsBySelector);
+// Select a specific elements 
+var allElementsBySelector = document.querySelectorAll('li')[2];
+console.log(allElementsBySelector);
