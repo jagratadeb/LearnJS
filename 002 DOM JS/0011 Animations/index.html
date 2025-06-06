@@ -1,34 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <style>
-      #container{
-        width: 400px;
-        height: 400px;
-        background-color: #1b1b1b;
-        position: relative;
-      }
-      #inside{
-        width: 50px;
-        height: 50px;
-        background-color: gray;
-        position: absolute;
-        border-radius: 50px;
-      }
-    </style>
-  </head>
-  <body>
-    <div id="container">
-      <div id="inside">
 
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    #container {
+      width: 400px;
+      height: 400px;
+      background-color: #1b1b1b;
+      position: relative;
+      border-radius: 30px;
+    }
+
+    #inside {
+      width: 50px;
+      height: 50px;
+      background-color: gray;
+      position: absolute;
+      border-radius: 50px;
+    }
+
+    button {
+      width: 400px;
+      padding: 20px;
+      text-align: center;
+      font-size: 25px;
+      border-radius: 10px;
+      border: none;
+      background-color: rgb(88, 193, 250);
+      color: white;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      transform: scale(0.9);
+      background-color: rgb(88, 155, 250);
+
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <div id="inside">
+
     </div>
-    <p><button onclick="animateIt()">Start Animation</button></p>
-    <script src="./index.js"></script>
-  </body>
+  </div>
+  <p><button onclick="animateIt()">Start Animation</button></p>
+  <script src="./index.js"></script>
+</body>
+
 </html>
