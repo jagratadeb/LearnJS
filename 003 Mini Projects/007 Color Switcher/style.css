@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    background-color: #1b1b1b;
+    color: white;
+    width: max-content;
+    border-radius: 50px;
+    margin: 50px auto 20px auto;
+    padding: 30px;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+
+}
+
+
+.div1 {
+    background-color: #1b1b1b;
+    border-radius: 35px;
+    padding: 30px;
+    height: 250px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+
+
+}
+
+button {
+    width: 200px;
+    text-align: center;
+    height: 50px;
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+input {
+    background-color: rgba(241, 241, 241, 0.976);
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    height: 90px;
+    transition: 0.3s ease-in-out;
+    width: 35%;
+}
+
+.current-color {
+    transition: 0.7s ease-in-out;
+    background-color: rgb(245, 245, 245);
+    font-size: 25px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 25px 10px;
+    width: 50%;
+    margin: 20px auto;
+}
+
+@media (max-width: 650px) {
+    h1 {
+        font-size: 35px;
+        padding: 15px;
+        width: max-content;
+        margin: 30px auto 45px auto;
+        transition: 0.3s ease-in-out;
+
+    }
+
+    .div1 {
+        padding: 20px;
+        width: 380px;
+        height: 300px;
+        margin: auto;
+        transition: 0.3s ease-in-out;
+    }
+
+    button {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 30px;
+        transition: 0.3s ease-in-out;
+    }
+
+    input {
+        width: 100%;
+        height: 60px;
+        margin: 20px auto;
+        border-radius: 30px;
+        font-size: 16px;
+        transition: 0.7s ease-in-out;
+    }
+
+    .current-color {
+        transition: 0.7s ease-in-out;
+        background-color: rgb(245, 245, 245);
+        font-size: 25px;
+        border-radius: 30px;
+        height: 60px;
+        padding: 5px 0px 0px 0px;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
