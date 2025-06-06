@@ -7,7 +7,7 @@ console.log(ele1);
 
 var target = document.querySelector('.one');
 var newE = `<b>BOLD TEXT</b>`;
-target.insertAdjacentHTML("beforebegin",newE);
+target.insertAdjacentHTML("beforebegin", newE);
 console.log(target);
 
 // beforebegin

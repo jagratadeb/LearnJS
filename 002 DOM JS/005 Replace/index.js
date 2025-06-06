@@ -1,8 +1,8 @@
 // Select the first <ul> element in the document
-const list = document.querySelector('ul');
+const ul = document.querySelector('ul');
 
 // Select the second child element (index 1) of the list
-const oldItem = list.children[1];   
+const oldItem = ul.children[1];
 
 // Create a new <li> element
 const newItem = document.createElement('li');
@@ -11,7 +11,7 @@ const newItem = document.createElement('li');
 newItem.textContent = "Human Being";
 
 // Replace the old child element with the new <li> element
-// list.replaceChild(newList, oldItem);
+ul.replaceChild(newItem, oldItem);
 
 // Use replaceWith to replace the old child element with the new <li> element
-oldItem.replaceWith(newItem);
+// oldItem.replaceWith(newItem);
