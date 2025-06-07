@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+}
+
+.container {
+    width: 100%;
+    background-color: white;
+    max-width: 30rem;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.219);
+    border-radius: 10px;
+}
+
+#searchInput {
+    padding: 12px 10px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+
+}
+
+.userContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 50vh;
+    overflow-y: auto;
+}
+
+.userContainer .userItem {
+    display: flex;
+    gap: 20px;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    background-color: #f4f4f4fe;
+    padding-left: 10px;
+}
+
+.userContainer .userItem img {
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+
+.userContainer .userItem .userDetails .userEmail {
+    color: rgb(0, 174, 255);
+}
