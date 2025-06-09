@@ -18,4 +18,11 @@ A comprehensive collection of JavaScript code examples, concepts, and mini-proje
 
 Browse each folder for hands-on examples. Run `.js` files in your browser console or with Node.js as appropriate. For DOM examples and mini-projects, open the corresponding `index.html` in your browser.
 
+### Maintained by -
+Jagrata Deb
+
+jagratadeb2004@gmail.com  
+[GitHub](https://github.com/jagratadeb)  
+[LinkedIn](https://www.linkedin.com/in/jagratadeb/)
+
 Happy Learning!
