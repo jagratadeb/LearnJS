@@ -4,22 +4,26 @@
 
 [![WakaTime](https://wakatime.com/badge/user/bb00c0fe-44b9-40c6-b043-77019e433b47/project/2ddfbee0-90e1-46cc-875b-8608558707cd.svg)](https://wakatime.com/)
 
+![GitHub last commit](https://img.shields.io/github/last-commit/jagratadeb/LearnJS?style=for-the-badge)
+
+
+
 A comprehensive, modular JavaScript learning repository featuring code examples, core concepts, DOM manipulation, mini-projects, and interview preparation. Designed for both beginners and experienced developers seeking hands-on, real-world JavaScript practice.
 
 ---
 
 ## 📁 Repository Structure
 
-- **001 Basic Concepts/**  
+- [`001 Basic Concepts/`](https://github.com/jagratadeb/LearnJS/tree/main/001%20Basic%20Concepts)
   Core JavaScript fundamentals: variables, data types, operators, conditionals, loops, functions, arrays, objects, strings, comments, strict mode, and advanced topics (promises, async/await). Each subfolder demonstrates a focused concept with concise, practical code.
 
-- **002 DOM JS/**  
+- [`002 DOM JS/`](https://github.com/jagratadeb/LearnJS/tree/main/002%20DOM%20JS)
   In-depth DOM manipulation: element selection, parent/child/sibling traversal, HTML/text manipulation, event handling, styling, animations, forms, and browser APIs. Each topic is organized for quick reference and experimentation.
 
-- **003 Mini Projects/**  
+- [`003 Mini Projects/`](https://github.com/jagratadeb/LearnJS/tree/main/003%20Mini%20Projects)
   Real-world JavaScript mini-projects: calculator, GitHub profile viewer, key logger, countdown app, color switcher, user list search, and more. Projects combine multiple concepts and DOM techniques to build interactive web applications.
 
-- **004 Interview Practice/**  
+- [`004 Interview Practice/`](https://github.com/jagratadeb/LearnJS/tree/main/004%20Interview%20Practice)
   Curated JavaScript coding challenges and interview problems. Each folder contains a focused problem (e.g., string reversal, leap year check, sum of elements) with a clear solution script for technical interview preparation.
 
 ---
@@ -44,10 +48,8 @@ A comprehensive, modular JavaScript learning repository featuring code examples,
 
 ## 🛠️ Contribution Guidelines
 
-- Fork the repository and create a new branch for your feature or fix.
-- Write clear, concise code and comments.
-- Follow the existing folder and file structure.
-- Submit a pull request with a detailed description of your changes.
+- Thank you for your interest in contributing! At this time, contributions are not being accepted.
+- Please feel free to check back in the future for opportunities to contribute, and thank you for your support and understanding.
 
 ---
 
